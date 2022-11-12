@@ -1,0 +1,163 @@
+{
+	"type": "FeatureCollection",
+	"name": "boba_locations",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 1,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Sunright Tea Studio - U District",
+				"LDLI_Address1": "4545 Roosevelt Way NE #103",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31776382835305,
+				"Latitude": 47.662472814029684,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31776382835305, 47.662472814029684]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 2,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Boba Up",
+				"LDLI_Address1": "4141 University Way NE # 103",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31353657457214,
+				"Latitude": 47.65806661543613,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31332329216758, 47.66169063732869]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 3,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Don't Yell At Me",
+				"LDLI_Address1": "4511 University Way NE,",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31332329216758,
+				"Latitude": 47.66169063732869,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31332329216758, 47.66169063732869]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 4,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Happy Lemon",
+				"LDLI_Address1": "2630 NE Village Plaza",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.2988329176298,
+				"Latitude": 47.66240757336277,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.2988329176298, 47.66240757336277]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 5,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Boba Gem Tea House",
+				"LDLI_Address1": "4213 University Way NE",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31352043640186,
+				"Latitude": 47.65878416938156,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31352043640186, 47.65878416938156]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 6,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Timeless Tea",
+				"LDLI_Address1": "1000 NE 50th St, Seattle",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31718761355424,
+				"Latitude": 47.66527093362154,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31718761355424, 47.66527093362154]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 7,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Oh Bear Café & Teahouse",
+				"LDLI_Address1": "4708 11th Ave NE",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31608750363355,
+				"Latitude": 47.66348782783422,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31608750363355, 47.66348782783422]
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"OBJECTID": 8,
+				"LDTC_TypeDescription": "boba",
+				"boba": "Sip House",
+				"LDLI_Address1": "5001 Brooklyn Ave NE",
+				"LDLI_City": "Seattle",
+				"LDLI_State": "WA",
+				"LDLI_Zip": "98105",
+				"LDLI_County": "Pierce",
+				"Longitude": -122.31453138458755,
+				"Latitude": 47.66509856880617,
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-122.31453138458755, 47.66509856880617]
+				}
+			}
+		}
+	]
+}

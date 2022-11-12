@@ -382,6 +382,8 @@ We expect the followings for your deliverable:
 
 - The earthquake example can be found at `http://[your_github_username].github.io/[your_repository_name]/earthquake.html`). (3 pts)
 
+http://[your_github_username].github.io/[your_repository_name]/earthquake.html`
+
 - The GitHub Pages function is enabled (we can see your website by visiting `http://[your_github_username].github.io/[your_repository_name]/index.html`). (4 pts)
 
 
@@ -412,3 +414,27 @@ We expect the followings for your deliverable:
 - [Zebra Striped Table](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
 - [Sort a Table](https://www.w3schools.com/howto/howto_js_sort_table.asp)
 - [async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+
+
+
+
+ async function geojsonFetch() {
+
+            let response, boba, washington, table;
+            response = await fetch('../assets/boba.geojson');
+            earthquakes = await response.json();
+            response = await fetch('../assets/washington.geojson');
+            japan = await response.json();
+
+            table = document.getElementsByTagName("table")[0];
+            const row, cell1, cell2, cell3;
+            for (let i = 0; i < boba.features.length; i++) {
+                // Create an empty <tr> element and add it to the 1st position of the table:
+                row = table.insertRow(-1);
+                cell1 = row.insertCell(0);
+                cell2 = row.insertCell(1);
+                cell3 = row.insertCell(2);
+                cell1.innerHTML = await boba.features[i].properties.OBJECTID;
+                cell2.innerHTML = await boba.features[i].properties.boba;
+                cell3.innerHTML = await boba.features[i].properties.LDLI_Address1;
+            }

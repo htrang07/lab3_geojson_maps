@@ -49,10 +49,26 @@
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+        @media screen and (max-width: 1024px) {
+            table {
+                display: none;
+            }
+            #table {
+                display: none;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Boba</a>
+        <a class="active" href="earthquake.html">Earthquake</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <main id="container">
         <div id="side-panel">
 
