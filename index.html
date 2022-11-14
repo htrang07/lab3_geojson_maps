@@ -68,7 +68,6 @@
     <main id="container">
         <div id="map"></div>
         <div id="table">
-
             <h2>Boba Around UW</h2>
             <button onclick="sortTable()">Sort by Alphabetical</button>
             
@@ -134,25 +133,6 @@
 
             }
             map.on('load', function loadingData() {
-
-                map.addSource('boba', {
-                    type: 'geojson',
-                    data: boba
-                });
-
-                map.addLayer({
-                    'id': 'boba-layer',
-                    'type': 'circle',
-                    'source': 'boba',
-                    'paint': {
-                        'circle-radius': 8,
-                        'circle-stroke-width': 2,
-                        'circle-color': 'red',
-                        'circle-stroke-color': 'white'
-                    }
-                });
-
-                
                 map.addSource('counties', {
                     type: 'geojson',
                     data: counties
